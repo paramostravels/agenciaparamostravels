@@ -1,0 +1,26 @@
+{% extends './base.html' %}
+
+{% block title%} Lenguajes {% endblock %}
+
+{% block body %}
+<h2 style="text-align: center">&iexcl;CIRCUITOS TURISTICOS</h2>
+<img src="C:\Users\harold\Desktop\App_Flask\assets\blanco.jpg" height="122"width="148">
+
+<table width="0" border="0">
+  <tr>
+    <td height="39" align="center" style="text-align: center"><p><strong><a class="nav-link" href="{{ url_for('sendero') }}"rel="noopener"><img src="C:\Users\harold\Desktop\App_Flask\assets\senderismo.jpg" height="332"width="358"></a></strong></p></td>
+    <td height="39" align="center" style="text-align: center"><p><strong><a class="nav-link" href="{{ url_for('termal') }}"rel="noopener"><img src="C:\Users\harold\Desktop\App_Flask\assets\termalismo.jpg" height="332"width="358"></a></strong></p></td>
+    <td height="39" align="center" style="text-align: center"><p><strong><a class="nav-link" href="{{ url_for('religion') }}"rel="noopener"><img src="C:\Users\harold\Desktop\App_Flask\assets\religioso.jpg" height="332"width="358"></a></strong></p></td>
+  </tr>
+  <tr>
+    <td height="39" align="center" style="text-align: center"><p><strong><a class="nav-link" href="{{ url_for('ecoturistico') }}"rel="noopener"><img src="C:\Users\harold\Desktop\App_Flask\assets\ecoturismo.jpg" height="332"width="358"></a></strong></p></td>
+    <td height="39" align="center" style="text-align: center"><p><strong><a class="nav-link" href="{{ url_for('aventura') }}"rel="noopener"><img src="C:\Users\harold\Desktop\App_Flask\assets\aventur.jpg" height="332"width="358"></a></strong></p></td>
+    <td height="39" align="center" style="text-align: center"><p><strong><a class="nav-link" href="{{ url_for('arqueologia') }}"rel="noopener"><img src="C:\Users\harold\Desktop\App_Flask\assets\arqueologico.jpg" height="332"width="358"></a></strong></p></td>
+  </tr>
+  
+  <tbody>
+  </tbody>
+</table>
+
+
+{% endblock %}
